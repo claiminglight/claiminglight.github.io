@@ -208,8 +208,92 @@ h1,h2,p{
 .bitter700{
 	font-family: 'Bitter', serif;
 	font-weight: 700;
-	color: #4B1518;	
-	
+	color: #4B1518;		
 }
+
+@media screen and (max-width: 500px) {	
+	.navButton{
+		min-width: 20%;
+		margin-top: 1.5vw;
+	}
+	#topDiv{
+		position:fixed;
+	}
+	#homeFocus{
+		display:none;
+	}
+	#homeTextHead{
+		font-size: 7vw;
+		margin-top: 13vw;
+		margin-bottom: 3vw;
+	}
+	#homeTextBody{
+		font-size: 4vw;
+	}
+	#playTextHead{
+		font-size: 7vw;
+		margin-top: 13vw;
+		margin-bottom: 3vw;
+	}
+	.playFocus{
+		min-width: 50vw;
+		max-width: 50vw;
+		min-height: 50vw;
+		float: left;
+		background-size: 50vw;
+		margin-left: 18vw;
+	}
+	#playFocusText1{
+	font-size: 5vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+	margin-bottom: -.5vw
+	}
+	#playFocusText2{
+	font-size: 5vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+	margin-bottom: -.5vw
+	}
+	#playFocusText3{
+	font-size: 5vw;
+	margin-top: 5vw;
+	margin-left: 2vw;
+	margin-bottom: -.5vw
+	}
+	.playFocusImage{
+		max-width: 45vw;
+		margin-top: unset;
+	}
+	#blogTextHead{
+		font-size: 7vw;
+		margin-top: 13vw;
+		margin-bottom: 3vw;
+	}
+	#blogFocus{
+		display: none;
+	}
+	#blogTextBodyStart{
+		text-align: center;
+	}
+	#blogTextBody{
+	text-align: center;
+	}
+	#contactTextHead{
+		font-size: 7vw;
+		margin-top: 13vw;
+		margin-bottom: 3vw;
+	}
+	#contactTextBody{
+		font-size: 4vw;
+		line-height: normal;
+		text-align: center;
+	}
+}
+
+	
+	
+	
+
 
 

@@ -155,7 +155,6 @@ h1,h2,p{
 	background-size: 20vw;
 	background-repeat: no-repeat;
 	float: right;
-	margin: .5vw;
 	margin-right: 5vw;
 }
 #blogTextBodyDiv{
@@ -168,11 +167,9 @@ h1,h2,p{
 }
 
 #blogFocusImage{
-	max-width: 19vw;
+	max-width: 16vw;
 	margin: none;
-	padding: none;
-	margin-top: 1vw;
-	margin-left: .5vw;
+	margin: 2vw;
 }
 
 .navButton{

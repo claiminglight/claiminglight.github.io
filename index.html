@@ -1,39 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Project: Blog</title>
-    </head>
-    <body>
-    <style>
-        body{ 
-            font-family:sans-serif;
-            font-size: 14px;
-            text-align:center;
-            }
-        h1{
-            font-weight: bold;
-        }
-    </style>
-    
-        
-        <h1>Mysterio's blog</h1>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Portfolio for Brad Muehlemann</title>
+<link rel="stylesheet" href="/style/style.css">
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Montserrat:500,700i');
+</style>
+</head>
 
-        <h3>Contents</h3>
-        <ul>
-            <li><a href="#firstPost"> First post!</a></li>
-            <li><a href="#secondPost"> Second post!</a></li>
-        </ul>
-        
-        <h2 id= "firstPost">First post</h2>
-        <h6>Posted on some date in some year</h6>
-        
-        <p>Blahbblahblah</p>
-        
-        <h2 id= "secondPost">Second Post</h2>
-        <h6>Posted on some date in some year</h6>
-        
-        <p>Leper Leprechauns Lept Upon some Lucky Charms.Leper Leprechauns Lept Upon some Lucky Charms.Leper Leprechauns Lept Upon some Lucky Charms. </p>
-        
-    </body>
+<body>
+
+<div id="topDiv"> <!-- Head of Page -->
+	<img id="myLogo" src="/img/veryOriginalLogo.png"> 
+	<a href= "contact.html" id ="contactButtonLink"><img class = "navButton" id = "contactButton" src ="/img/buttonContact.png"></a>
+	<a href= "blog.html" id ="blogButtonLink"><img class = "navButton" id = "blogButton" src ="/img/buttonBlog.png"></a>
+	<a href= "play.html" id ="playButtonLink"><img class = "navButton" id = "playButton" src ="/img/buttonPlay.png"></a>
+	<a href= "index.html" id ="homeButtonLink"><img class = "navButton" id = "homeButtonSelected" src ="/img/buttonHomeSelected.png"></a>
+</div>
+
+<div id="homeFocus">	<!-- Focus Area -->
+	<h2 class = "bitter700" id="homeFocusHead"> I make and play games!</h2>
+	<p class = "bitter500" id ="homeFocusBody"> Use the buttons above to navigate. If you want to play games or demos, go to Play.</p>
+</div>
+
+
+<div class="topTextDiv" id = "homeTextDiv">
+	<h1 class="mont700i" id= "homeTextHead">Welcome</h1>
+	
+	<p class="mont500" id= "homeTextBody">
+	My name's Brad Muehlemann. </br></br>
+	I'm a game-maker, programmer and web developer working freelance and attending college at Grand View University.</br></br>
+	One day, I hope to create a studio and sell my own video games. If you're interested in collaborating in that effort, please feel free to send me an e-mail!
+	
+	</p>
+</div>
+
+	
+	
+
+<div id="botDiv">
+	<p class = "mont500" id="emailAddress">claiminglight@gmail.com</p>
+</div>
+
+
+</body>
 </html>

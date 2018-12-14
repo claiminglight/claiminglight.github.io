@@ -1,0 +1,218 @@
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #5A5D48;	
+}
+h1,h2,p{
+	margin: 0.5vw;
+	
+}
+
+#topDiv{
+	min-width: 100vw;
+	min-height: 10vw;
+	background-image: url("/img/topArc.png");
+	background-size: 100vw 10vw;
+	background-repeat: no-repeat;
+	top: 0vw;
+}
+
+#botDiv{
+	min-width: 100vw;
+	min-height: 7vw;
+	background-image: url("/img/botArc.png");
+	background-size: 100vw 15vw;
+	background-repeat: no-repeat;
+	position: fixed;
+	bottom: 0vw;
+}
+
+#playTextHead{
+	margin-left: 3vw;
+	font-size: 4vw;
+}
+
+#contactTextHead{
+	margin-left: 7vw;
+	font-size: 4vw;
+}
+#contactTextBody{
+	margin-top: 2vw;
+	margin-left: 10vw;
+	font-size: 2vw;
+	line-height: 2.75vw;
+}
+
+#homeFocus{
+	min-width: 40vw;
+	min-height: 15vw;
+	background-image: url("/img/focusBox.png");
+	background-size: 40vw;
+	background-position: right;
+	background-repeat: no-repeat;
+	float: right;
+	margin: 2vw;
+}
+
+.playBoard{
+	display: block;
+	margin-left:8vw;
+	width: 78vw;
+}
+
+.playFocus{
+	min-width: 20vw;
+	max-width: 20vw;
+	min-height: 20vw;
+	max-height: 20vw;
+	background-image: url("/img/playFocusBox.png");
+	background-size: 20vw;
+	background-position: right;
+	background-repeat: no-repeat;
+	float: right;
+	margin-left: 6vw;
+}
+
+#playFocus1{}
+#playFocus2{}
+#playFocus3{}
+
+.playFocusImage{
+	max-width: 16vw;
+	margin: none;
+	margin-top: -0.6vw;
+	margin-left: 2vw;
+}
+#playFocusText1{
+	font-size: 2.5vw;
+	margin: none;
+	padding: none;
+	margin-top: 2vw;
+	margin-left: 1vw;}
+#playFocusText2{
+	font-size: 2.5vw;
+	margin: none;
+	padding: none;
+	margin-top: 2vw;
+	margin-left: 1vw;}
+#playFocusText3{
+	font-size: 2.5vw;
+	margin: none;
+	padding: none;
+	margin-top: 2vw;
+	margin-left: 1vw;}
+
+
+#playFocus1Image{}
+#playFocus2Image{}
+#playFocus3Image{}
+
+#emailAddress{
+	margin-top:3.5vw;
+	margin-left: 2.5vw;
+	font-size: 1.73vw;
+}
+
+#homeFocusHead{
+	word-wrap: break-word;
+	max-width: 38vw;
+	max-height: 15vw;
+	font-size: 3vw;
+	margin-left: 1vw;
+}
+
+.topTextDiv{
+}
+#blogTextHead{
+	margin-left: 3vw;
+	font-size: 4vw;
+}
+#homeTextHead{
+	margin-left: 3vw;
+	font-size: 4vw;
+}
+#homeTextBody{
+	margin-left: 7vw;
+	margin-top: 1.5vw;
+	font-size: 2vw;
+}
+
+#homeFocusBody{
+	word-wrap: break-word;
+	max-width: 35vw;
+	max-height: 10vw;
+	font-size: 2vw;
+	margin-left: 3vw;
+	margin-top: 1vw;
+}
+#blogFocus{
+	min-width: 20vw;
+	min-height: 20vw;
+	background-image: url("/img/playFocusBox.png");
+	background-size: 20vw;
+	background-repeat: no-repeat;
+	float: right;
+	margin: .5vw;
+	margin-right: 5vw;
+}
+#blogTextBodyDiv{
+	margin-left: 7vw;
+	margin-top: 2vw;
+}
+#blogTextBody{
+	margin-left: 5vw;
+	margin-top: 1.5vw;
+}
+
+#blogFocusImage{
+	max-width: 19vw;
+	margin: none;
+	padding: none;
+	margin-top: 1vw;
+	margin-left: .5vw;
+}
+
+.navButton{
+	width: 14%;
+	height: auto;
+	float: right;
+	margin: 1%;
+	margin-top: 3%;
+}
+
+#myLogo{
+	width: 10%;
+	height: auto;
+	
+	margin: 0.5%;
+}
+	
+.mont700i{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: #F5F5D9;
+}
+.mont500{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #F5F5D9;	
+	
+}
+.bitter500{
+	font-family: 'Bitter', serif;
+	font-weight: 500;
+	color: #4B1518;	
+	
+}
+.bitter700{
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	color: #4B1518;	
+	
+}
+
+
